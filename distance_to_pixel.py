@@ -3,7 +3,7 @@ import numpy as np
 import math
 
 # Create point matrix get coordinates of mouse click on image
-point_matrix = np.zeros((2, 2), np.int)
+point_matrix = np.zeros((2, 2), int)
 
 counter = 0
 
@@ -57,4 +57,5 @@ while True:
     # Mouse click event on original image
     cv2.setMouseCallback("Original Image ", mousePoints)
     # Refreshing window all time
-    cv2.waitKey(1)
+    if cv2.waitKey(1) & 0xFF == ord('x'):
+        break
