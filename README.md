@@ -1,6 +1,6 @@
 # Social_distencing_monitering_system
 
-## Detect the distance less than given distance among the persons detected in the video. 
+## Detects the distance less than given distance among the persons detected in the video. 
 
 1. clone the code.
 2. download the Yolo3 weights,cfg,coco.names and put to data/model. or dowload from the drive https://drive.google.com/drive/folders/1_r5fCdvYyf39e-YSeWm5m430YPHFsYq1
